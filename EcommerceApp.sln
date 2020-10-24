@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecommerce.DatabaseContext",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecommerce.Web", "Ecommerce.Web\Ecommerce.Web.csproj", "{FDE75FED-DEAD-49E2-99B9-B91D43C00CE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce.Repository.Abstraction", "Ecommerce.Repository.Abstraction\Ecommerce.Repository.Abstraction.csproj", "{F369393F-74A4-4B27-96E5-839FCE55D7C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecommerce.Repository.Abstraction", "Ecommerce.Repository.Abstraction\Ecommerce.Repository.Abstraction.csproj", "{F369393F-74A4-4B27-96E5-839FCE55D7C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce.Repository", "Ecommerce.Repository\Ecommerce.Repository.csproj", "{113C1C9C-B27F-489F-94A2-1230D8F2A4D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecommerce.Repository", "Ecommerce.Repository\Ecommerce.Repository.csproj", "{113C1C9C-B27F-489F-94A2-1230D8F2A4D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce.BLL.Abstraction", "Ecommerce.BLL.Abstraction\Ecommerce.BLL.Abstraction.csproj", "{3A1FE993-E132-45E1-9D39-3117CD469995}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{113C1C9C-B27F-489F-94A2-1230D8F2A4D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{113C1C9C-B27F-489F-94A2-1230D8F2A4D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{113C1C9C-B27F-489F-94A2-1230D8F2A4D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A1FE993-E132-45E1-9D39-3117CD469995}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A1FE993-E132-45E1-9D39-3117CD469995}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A1FE993-E132-45E1-9D39-3117CD469995}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A1FE993-E132-45E1-9D39-3117CD469995}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
