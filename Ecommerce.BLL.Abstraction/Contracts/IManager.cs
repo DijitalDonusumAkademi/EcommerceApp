@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Ecommerce.BLL.Abstraction
+namespace Ecommerce.BLL.Abstraction.Contracts
 {
     public interface IManager<T> where T : class
     {

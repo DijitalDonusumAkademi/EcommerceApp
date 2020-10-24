@@ -21,10 +21,7 @@ namespace Ecommerce.Repository.Products
 
 
 
-        public void Add(Product entity)
-        {
-            throw new System.NotImplementedException();
-        }
+    
 
         public ICollection<Product> GetAll()
         {
